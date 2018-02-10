@@ -1,3 +1,9 @@
+<sup>Find the Jupyter notebooks for these posts on [my Github](https://github.com/ikottman/learning-nlp)</sup>
+
+Welcome to the first in a series of posts chronicling my endeavors to teach myself natural language processing. I'll be focusing on the practical side of NLP, going through common techniques with examples in the form of Jupyter notebooks. Most of these will use the Python library [spaCy](https://spacy.io/).
+
+First, we'll start off with the basic components of a language processing pipeline.
+
 ## Tokenization
 
 Tokenization is the process of breaking up text into smaller pieces, called _tokens_. Tokens may or may not be words. There is not one specific way to perform tokenization, as different problems may call for different granluarity of tokens. Below are two examples of tokenizers.
